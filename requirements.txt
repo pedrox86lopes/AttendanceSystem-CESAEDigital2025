@@ -1,0 +1,28 @@
+# Core Django
+Django>=4.2
+gunicorn==21.2.0
+psycopg2-binary==2.9.9  # For PostgreSQL on Render
+
+# Streamlit
+streamlit==1.32.2
+altair==5.2.0  # Often used by Streamlit for charts
+
+# Database & ORM
+django-environ==0.11.2  # For environment variables
+dj-database-url==2.1.0  # For Render's database URL
+
+# Authentication
+django-allauth==0.58.2  # If using social auth
+python-decouple==3.8  # For config management
+
+# Utilities
+pandas==2.1.4  # For data handling
+python-dateutil==2.8.2
+pytz==2023.3.post1  # Timezone support
+
+# Production
+whitenoise==6.6.0  # For static files
+django-cors-headers==4.3.1  # If making API calls
+
+# Security
+cryptography==42.0.2  # For password hashing
